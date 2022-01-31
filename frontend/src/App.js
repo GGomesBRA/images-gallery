@@ -1,8 +1,10 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './components/Header';
+
 function App() {
   return (
     <div className="App">
-      <h1>IMAGES GALLERY NEW VERSION 2.0 - GIT PUSH</h1>
-      <h2>asdf</h2>
+      <Header title="Images Gallery"></Header>
     </div>
   );
 }
